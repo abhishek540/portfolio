@@ -218,25 +218,34 @@ services
 	padding: 2% 10% 0px 10%;
 }
 .services-text p:nth-child(1){
-	font-family: 'Roboto', sans-serif;
+
 	font-weight:bold;
 	color:var(--text);
 	font-size:30px;
 	line-height:0px;
 }
-.services-text p:nth-child(2){
-	font-family: 'Roboto', sans-serif;
-	font-weight: bold;
+.services-text p:nth-child(2)
+{
+	font-weight: 400;
 	color:var(--text);
 	font-size: 15px;
 	line-height: 5px;
 }
+
 .services-text p:nth-child(3){
-	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	color:var(--text);
-	font-size: 10px;
+	font-size: 15px;
+	line-height: 5px;
+}
+.services-text h4{
+	font-weight: 900;
+	color:var(--text);
+	font-size: 15px;
+	line-height: 5px;
 }
 .services-text{
+	font-family: 'Roboto', sans-serif;
 	width: 500px;
 	margin:50px 0px;
 }
@@ -308,6 +317,10 @@ services
 	border:none;
 	outline: none;
 	border-radius:0px;
+	
+}
+.box-container a{
+	color: var(--text);
 }
 
 
