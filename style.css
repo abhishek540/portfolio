@@ -2,10 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
 
-:root{
+/* :root{
 	--bg-50: #eceff1;
 	--text: #263238;
 	
+  } */
+  :root{
+	--bg-50: white;
+	--text: rgb(24, 24, 31);
   }
 <!--style----->
 
